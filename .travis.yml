@@ -11,7 +11,7 @@ jobs:
       - echo "NO TESTS"
     deploy:
       - provider: lambda
-        function_name: test_bsfy_func_1412
+        function_name: test_bsfy_func_141210
         role: arn:aws:iam::341288657826:role/bsfy_lambda_role
         handler_name: test
         access_key_id: $AWS_ACCESS_KEY
